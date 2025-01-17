@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0 48px;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 25px;
+  width: 60px !important;
+  height: 60px !important;
+  z-index: 999 !important;
+}
+.slick-prev::before,
+.slick-next::before {
+  color: #003540 !important;
+  border: 5px solid #003540;
+  border-radius: 50%;
+  padding: 20px !important ;
+  z-index: 999 !important;
+  font-weight: bolder;
+  transition: background-color 0.3s ease;
+}
+.slick-prev:hover::before,
+.slick-next:hover::before {
+  background-color: #badde0 !important;
+  border: 5px solid #badde0;
+}
+
+/* .slick-prev:before, .slick-next:before{
+    font-size: px !important
+} */
