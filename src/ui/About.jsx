@@ -12,7 +12,7 @@ export default function About() {
       </div>
 
       <div className="sm:w-[60%] w-full sm:mt-0 mt-10 ">
-        <h2 className="text-2xl ">حول AWS GULF</h2>
+        <h2 className="text-2xl font-cairo text-primary  ">حول AWS GULF</h2>
         <p className="text-secondary mt-8">
           تعتبر AWS شركة رائدة في مجال تكامل نظم تكنولوجيا المعلومات وتقديم
           الخدمات، تأسست في عام 2024 مع تركيز على تقديم حلول الأجهزة التكنولوجية

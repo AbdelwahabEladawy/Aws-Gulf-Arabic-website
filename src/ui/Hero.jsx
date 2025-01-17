@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <div className="flex-col mt-28 text-primary m-0 xl:flex xl:flex-row ">
       <div className="xl:w-50 m-auto w-fullflex-col justify-center items-center ">
-        <h1 className="mb-6">دليلك نحو المستقبل</h1>
+        <h1 className="mb-6 font-cairo text-[48px] font-bold">دليلك نحو المستقبل</h1>
         <p className="text-secondary mb-28 font-cairo leading-8 font-normal xl:w-[500px]ps self-stretch ">
           {" "}
           استشارات التسويق، تصميم واجهات المستخدم وتجربة المستخدم للمواقع،
@@ -22,14 +22,14 @@ export default function Hero() {
         <Button type="primary">اتصل بنا الآن</Button>
 
 
-        <div className="flex mx-0 mt-14 p-0 space-x-1 ">
-          <img src={x} alt="x-platform"  className="xl:w-[25px]  m-0 " />
-          <img src={insta} alt="insta-platform" className="xl:w-[25px] m-0 " />
-          <img src={faceBook} alt="faceBook-platform" className="xl:w-[25px] m-0 " />
-          <img src={snap} alt="snap-platform" className="xl:w-[25px] m-0 " />
-          <img src={youtube} alt="youtube-platform" className="xl:w-[25px] m-0 " />
-          <img src={linked} alt="linked-platform" className="xl:w-[25px] m-0 " />
-          <img src={behance} alt="behance-platform" className="xl:w-[25px] m-0 " />
+        <div className="flex  mx-0 mt-14  sm:space-x-5  space-x-2">
+          <img src={x} alt="x-platform"  className="xl:w-[25px] sm:me-3 me-2  " />
+          <img src={snap} alt="snap-platform" className="xl:w-[25px] " />
+          <img src={faceBook} alt="faceBook-platform" className="xl:w-[25px] " />
+          <img src={youtube} alt="youtube-platform" className="xl:w-[25px] " />
+          <img src={linked} alt="linked-platform" className="xl:w-[25px] " />
+          <img src={insta} alt="insta-platform" className="xl:w-[25px] " />
+          <img src={behance} alt="behance-platform" className="xl:w-[25px] " />
         </div>
 
     
