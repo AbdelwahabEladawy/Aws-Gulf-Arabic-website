@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="sm:flex sm:flex-row w-full   py-16 flex-col ">
       <div className="sm:w-[40%] flex justify-center tracking-wide  w-full	 ">
-        <div className="w-[438px]  font-mons bg-card flex justify-center items-center ">
+        <div className="w-[438px]  font-mons bg-card flex justify-center items-center rounded-[10px] ">
 
         <WordAnimation/>
         </div>
