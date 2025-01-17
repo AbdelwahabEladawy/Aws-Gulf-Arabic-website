@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import  { useState, useEffect } from "react";
 
 export default function WordAnimation() {
-  const words = ["الثقة", "التعاون", "الإبتكار","الإحترام","الإلتزام","الإيجابيه","التنوع"];
+  const words = ["الثقة", "التعاون", "الإبتكار","الإحترام","الإلتزام","الإيجابية","التنوع"];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
