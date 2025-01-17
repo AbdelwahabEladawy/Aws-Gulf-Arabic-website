@@ -11,7 +11,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="sm:w-[60%] w-full sm:mt-0 mt-10 ">
+      <div className="sm:w-[60%] w-full sm:mt-0 mt-10 xl:ms-16 ">
         <h2 className="text-2xl font-cairo text-primary font-bold  ">حول AWS GULF</h2>
         <p className="text-secondary mt-8">
           تعتبر AWS شركة رائدة في مجال تكامل نظم تكنولوجيا المعلومات وتقديم
