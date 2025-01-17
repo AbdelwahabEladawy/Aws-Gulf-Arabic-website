@@ -24,9 +24,9 @@ export default function NavBar() {
         </ul>
         <div className="flex justify-center items-center xl:flex xl:flex-row xl:justify-center xl:items-center ">
           <Toggle />
-          <span className="flex justify-center items-center w-6 h-6 xl:flex xl:flex-row xl:justify-center xl:items-center">
-            <span className=" xl:me-14  me-6 text-center">English</span>
-            <img src={global} className="w-6 h-6 m-0" alt="globalworld" />
+          <span className="flex justify-center items-center w-6 h-6 xl:flex xl:flex-row xl:justify-center xl:items-center me-16">
+            <span className=" xl:me-1 text-center">English</span>
+            <img src={global} className="w-24 h-24" alt="globalworld" />
           </span>
 
           <Button type="primary">

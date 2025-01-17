@@ -5,7 +5,7 @@ export default function Toggle() {
 
     return (
         <>
-            <div className="flex w-max  mx-0">
+            <div className="flex w-max ms-8 mx-0">
                 <div className="relative sm:left-20 left-10 inline-block w-12 h-6">
                     <input 
                         checked={isChecked} 
